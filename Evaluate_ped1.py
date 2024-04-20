@@ -105,14 +105,10 @@ def Eval(model=None):
             b_imgs = Variable(b_imgs).cuda()
             mid_img = Variable(mid_img).cuda()
 
-            if args.method == 'pred':
-                if k == label_length - 4 * (video_num + 1):
-                    video_num += 1
-                    label_length += videos[videos_list[video_num].split('/')[-1].split('\\')[-1]]['length']
-            else:
-                if k == label_length:
-                    video_num += 1
-                    label_length += videos[videos_list[video_num].split('/')[-1].split('\\')[-1]]['length']
+            if k == label_length - 4 * (video_num + 1):
+                video_num += 1
+                label_length += videos[videos_list[video_num].split('/')[-1].split('\\')[-1]]['length']
+
 
             if args.method == 'pred':
                 outputs = model.forward(f_imgs, b_imgs)
