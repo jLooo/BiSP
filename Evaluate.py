@@ -108,7 +108,7 @@ def Eval(model=None):
             b_imgs = Variable(b_imgs).cuda()
             mid_img = Variable(mid_img).cuda()
 
-            if k == label_length - 4 * (video_num + 1):
+            if k == label_length - 6 * (video_num + 1):
                 video_num += 1
                 label_length += videos[videos_list[video_num].split('/')[-1].split('\\')[-1]]['length']
 
