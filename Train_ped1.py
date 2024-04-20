@@ -25,7 +25,6 @@ def main():
     parser.add_argument('--lr', type=float, default=2e-4, help='initial learning rate')
     parser.add_argument('--method', type=str, default='pred', help='The target task for anoamly detection')
     parser.add_argument('--t_length', type=int, default=6, help='length of the frame sequences')
-    parser.add_argument('--fdim', type=int, default=256, help='channel dimension of the features')
     parser.add_argument('--num_workers', type=int, default=5, help='number of workers for the train loader')
     parser.add_argument('--dataset_type', type=str, default='ped2', help='type of dataset: ped2, avenue, shanghai')
     parser.add_argument('--dataset_path', type=str, default='./dataset', help='directory of data')
