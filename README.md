@@ -17,4 +17,4 @@ python Evaluate_ped1.py # Ped1
 python Evaluate_avenue.py # Avenue  
 python Evaluate_shanghaitech.py # ShanghaiTech  
 
-You can download the pretrained weights of BiSP for the four datasets from [Baidu]() OR [Google](https://drive.google.com/drive/folders/1Vcs2mryGiZmidjaQy1C0Elviv1ADzBru?usp=sharing).
+You can download the pretrained weights of BiSP for the four datasets from [Baidu](https://pan.baidu.com/s/1k5zSS7VQ-fMxmdBh0HnSdw?pwd=prcv) OR [Google](https://drive.google.com/drive/folders/1Vcs2mryGiZmidjaQy1C0Elviv1ADzBru?usp=sharing).
