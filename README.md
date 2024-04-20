@@ -1,4 +1,6 @@
-# BiSP
+# Intra-domain Disparity-driven Attention for Video Anomaly Detection (BiSP)
+
+code for PRCV2024
 
 0. Data preparation & Flow pretrained model    
 Ped2: http://www.svcl.ucsd.edu/projects/anomaly/dataset.htm  
