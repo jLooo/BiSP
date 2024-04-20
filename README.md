@@ -2,7 +2,7 @@
 
 code for PRCV2024
 
-0. Data preparation & Flow pretrained model    
+0. Data preparation      
 Ped2: http://www.svcl.ucsd.edu/projects/anomaly/dataset.htm  
 Avenue: https://www.cse.cuhk.edu.hk/leojia/projects/detectabnormal/dataset.html  
 ShanghaiTech: https://svip-lab.github.io/dataset/campus_dataset.html  
