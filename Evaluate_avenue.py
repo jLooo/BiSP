@@ -12,7 +12,7 @@ from model.MGM_avenue import *
 
 
 def Eval(model=None):
-    parser = argparse.ArgumentParser(description="MGM")
+    parser = argparse.ArgumentParser(description="BiSP")
     parser.add_argument('--gpus', nargs='+', type=str, help='gpus')
     parser.add_argument('--test_batch_size', type=int, default=1, help='batch size for test')
     parser.add_argument('--h', type=int, default=256, help='height of input images')
