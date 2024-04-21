@@ -242,7 +242,6 @@ class CSA(nn.Module):
 class MGM_avenue(nn.Module):
     def __init__(self, t_length=3, n_channel=3):
         super(MGM_avenue, self).__init__()
-        print('MGM_avenue')
 
         self.decoder = Decoder(t_length, n_channel)
         self.decoder_b = Decoder(t_length, n_channel)
