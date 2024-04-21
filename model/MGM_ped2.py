@@ -108,18 +108,18 @@ class Decoder(torch.nn.Module):
         x = self.csa1(x)
         tensorConv = self.moduleConv4(x)
         tensorUpsample4 = self.moduleUpsample4(tensorConv)
+        
         tensorUpsample4 = self.csa2(tensorUpsample4)
-
         cat4 = torch.cat((skip3, tensorUpsample4), dim=1)
         tensorDeconv3 = self.moduleDeconv3(cat4)
         tensorUpsample3 = self.moduleUpsample3(tensorDeconv3)
+        
         tensorUpsample3 = self.csa3(tensorUpsample3)
-
         cat3 = torch.cat((skip2, tensorUpsample3), dim=1)
         tensorDeconv2 = self.moduleDeconv2(cat3)
         tensorUpsample2 = self.moduleUpsample2(tensorDeconv2)
+        
         tensorUpsample2 = self.csa4(tensorUpsample2)
-
         cat2 = torch.cat((skip1, tensorUpsample2), dim=1)
         output = self.moduleDeconv1(cat2)
 
