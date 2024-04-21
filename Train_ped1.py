@@ -12,7 +12,7 @@ import torch.nn.functional as F
 import argparse
 from model.MGM_ped1 import *
 from model.loss_func import *
-import Evaluate as Evaluate
+import Evaluate_ped1 as Evaluate
 
 def main():
     parser = argparse.ArgumentParser(description="BiSP")
