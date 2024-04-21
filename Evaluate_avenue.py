@@ -21,7 +21,7 @@ def Eval(model=None):
     parser.add_argument('--method', type=str, default='pred', help='The target task for anoamly detection')
     parser.add_argument('--t_length', type=int, default=7, help='length of the frame sequences')
     parser.add_argument('--num_workers_test', type=int, default=1, help='number of workers for the test loader')
-    parser.add_argument('--dataset_type', type=str, default='avenue', help='type of dataset: ped2, avenue, shanghai')
+    parser.add_argument('--dataset_type', type=str, default='avenue', help='type of dataset: avenue')
     parser.add_argument('--dataset_path', type=str, default='D:/Datasets', help='directory of data')
     parser.add_argument('--model_dir', type=str, default='./modelzoo/best_model_avenue.pth', help='directory of model')
     parser.add_argument('--seed', type=int, default=2021, help='directory of log')
