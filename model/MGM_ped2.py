@@ -241,7 +241,6 @@ class CSA(nn.Module):
 class MGM_ped2(nn.Module):
     def __init__(self, t_length=3, n_channel=3):
         super(MGM_ped2, self).__init__()
-        print('MGM_ped2')
 
         self.decoder = Decoder(t_length, n_channel)
         self.decoder_b = Decoder(t_length, n_channel)
