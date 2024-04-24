@@ -1,6 +1,8 @@
 # Intra-domain Disparity-driven Attention for Video Anomaly Detection (BiSP)
 
 code for PRCV2024
+python 3.8
+torch 1.13
 
 0. Data preparation      
 Ped2: http://www.svcl.ucsd.edu/projects/anomaly/dataset.htm  
