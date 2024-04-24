@@ -30,9 +30,7 @@ def main():
     parser.add_argument('--dataset_path', type=str, default='./datasets', help='directory of data')
     parser.add_argument('--exp_dir', type=str, default='log', help='directory of log')
     parser.add_argument('--seed', type=int, default=1111, help='directory of log')
-    parser.add_argument('--sigma', type=int, default=[3, 5], help='noisy sigma')
-    parser.add_argument('--model_dir', type=str, default='',
-                        help='directory of model')
+    parser.add_argument('--model_dir', type=str, default='', help='directory of model')
     parser.add_argument('--model_continue', type=bool, default=False, help='reload parameters')
 
     args = parser.parse_args()
