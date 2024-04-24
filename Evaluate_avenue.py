@@ -41,7 +41,7 @@ def Eval(model=None):
 
     torch.backends.cudnn.enabled = True  # make sure to use cudnn for computational performance
 
-    test_folder = args.dataset_path + "/" + args.dataset_type + "/testing/testing_frames"
+    test_folder = args.dataset_path + "/" + args.dataset_type + "/testing/frames"
 
     # Loading dataset
     test_dataset = DataLoader(test_folder, transforms.Compose([
