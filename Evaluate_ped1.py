@@ -61,7 +61,11 @@ def Eval(model=None):
         except:
             model.load_state_dict(torch.load(args.model_dir), strict=False)
         model.cuda()
-
+        
+    # Loading the per-trained model
+    # model = torch.load(args.model_dir)
+    # model.cuda()
+    
     labels = np.load('./data/frame_labels_' + args.dataset_type + '.npy')
     if labels.ndim == 1:
         labels = labels[np.newaxis, :]
