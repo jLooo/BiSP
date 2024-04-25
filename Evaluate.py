@@ -61,7 +61,7 @@ def Eval(model=None):
             model.load_state_dict(torch.load(args.model_dir), strict=False)
         model.cuda()
         
-    # Loading the per-trained model
+    # Loading the pretrained model
     # model = torch.load(args.model_dir)
     # model.cuda()
     
