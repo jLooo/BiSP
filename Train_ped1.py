@@ -31,7 +31,7 @@ def main():
     parser.add_argument('--exp_dir', type=str, default='log', help='directory of log')
     parser.add_argument('--seed', type=int, default=1111, help='directory of log')
     parser.add_argument('--model_dir', type=str, default='', help='directory of model')
-    parser.add_argument('--model_continue', type=bool, default=True, help='reload parameters')
+    parser.add_argument('--model_continue', type=bool, default=False, help='reload parameters')
 
     args = parser.parse_args()
     # set_seed(args.seed)
