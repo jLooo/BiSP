@@ -18,7 +18,7 @@ def main():
     parser = argparse.ArgumentParser(description="BiSP")
     parser.add_argument('--gpus', nargs='+', type=str, help='gpus')
     parser.add_argument('--batch_size', type=int, default=1, help='batch size for training')
-    parser.add_argument('--epochs', type=int, default=100, help='number of epochs for training')
+    parser.add_argument('--epochs', type=int, default=60, help='number of epochs for training')
     parser.add_argument('--h', type=int, default=256, help='height of input images')
     parser.add_argument('--w', type=int, default=256, help='width of input images')
     parser.add_argument('--c', type=int, default=3, help='channel of input images')
