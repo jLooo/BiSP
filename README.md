@@ -1,6 +1,6 @@
 # Intra-domain Disparity-driven Attention for Video Anomaly Detection (BiSP)
 
-code for PRCV2024  
+code for ACCV2024  
 python 3.8  
 torch 1.13  
 
