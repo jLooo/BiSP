@@ -10,7 +10,7 @@ Avenue: https://www.cse.cuhk.edu.hk/leojia/projects/detectabnormal/dataset.html
 ShanghaiTech: https://svip-lab.github.io/dataset/campus_dataset.html  
 
 1. Train  
-python Train.py # Ped2
+python Train.py # Ped2  
 python Train_ped1.py # Ped1  
 python Train_avenue.py # Avenue  
 python Train_shanghaitech.py # ShanghaiTech  
