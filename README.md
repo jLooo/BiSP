@@ -5,7 +5,7 @@ python 3.8
 torch 1.13  
 
 0. Data preparation      
-Ped2: http://www.svcl.ucsd.edu/projects/anomaly/dataset.htm  
+Ped1/Ped2: http://www.svcl.ucsd.edu/projects/anomaly/dataset.htm  
 Avenue: https://www.cse.cuhk.edu.hk/leojia/projects/detectabnormal/dataset.html  
 ShanghaiTech: https://svip-lab.github.io/dataset/campus_dataset.html  
 
