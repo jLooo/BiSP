@@ -1,6 +1,7 @@
 # Bidirectional skip-frame prediction for video anomaly detection with intra-domain disparity-driven attention (BiSP)
 
-Published in [Pattern Recognition 2025] 
+Published in Pattern Recognition.
+
 python 3.8  
 torch 1.13  
 
