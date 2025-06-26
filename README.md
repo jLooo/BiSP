@@ -1,6 +1,6 @@
 # Bidirectional skip-frame prediction for video anomaly detection with intra-domain disparity-driven attention (BiSP)
 
-submitted for the journal PR  
+Published in [Pattern Recognition 2025] 
 python 3.8  
 torch 1.13  
 
@@ -22,3 +22,15 @@ python Evaluate_avenue.py # Avenue
 python Evaluate_shanghaitech.py # ShanghaiTech  
 
 You can download the pretrained weights of BiSP for the four datasets from [Google](https://drive.google.com/drive/folders/1Vcs2mryGiZmidjaQy1C0Elviv1ADzBru?usp=sharing).
+
+If you use this work, please cite:
+```
+@article{Lyu2025Bisp,
+title = {Bidirectional skip-frame prediction for video anomaly detection with intra-domain disparity-driven attention},
+author = {Jiahao Lyu and Minghua Zhao and Jing Hu and Runtao Xi and Xuewen Huang and Shuangli Du and Cheng Shi and Tian Ma},
+journal = {Pattern Recognition},
+pages = {112010},
+year = {2025},
+issn = {0031-3203}
+}
+```
