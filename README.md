@@ -26,12 +26,13 @@ You can download the pretrained weights of BiSP for the four datasets from [Goog
 
 If you use this work, please cite:
 ```
-@article{Lyu2025Bisp,
-title = {Bidirectional skip-frame prediction for video anomaly detection with intra-domain disparity-driven attention},
-author = {Jiahao Lyu and Minghua Zhao and Jing Hu and Runtao Xi and Xuewen Huang and Shuangli Du and Cheng Shi and Tian Ma},
-journal = {Pattern Recognition},
-pages = {112010},
-year = {2025},
-issn = {0031-3203}
+@article{lyu2025bidirectional,
+  title={Bidirectional skip-frame prediction for video anomaly detection with intra-domain disparity-driven attention},
+  author={Lyu, Jiahao and Zhao, Minghua and Hu, Jing and Xi, Runtao and Huang, Xuewen and Du, Shuangli and Shi, Cheng and Ma, Tian},
+  journal={Pattern Recognition},
+  pages={112010},
+  year={2025},
+  publisher={Elsevier}
+}
 }
 ```
